@@ -8,7 +8,7 @@ list_word = list(ran_word)
 hidden = ["-" for i in ran_word]
 lives = 8  # decrease when player guess wrong
 score = 0  # increases when player guess right letter
-abs_wrong = []  # contains all letters not in the random word
+abs_wrong = []  # contains all letters not in the random word but guessed by player
 
 
 def hangman(letter):
